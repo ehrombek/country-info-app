@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: #3d64e6;
+    padding: 20px;
+}
+.con{
+    padding: 20px;
+}
+.container{
+    background-color: #dcdcdc;
+    width: 40vw;
+    min-height: 10vh;
+    padding: 2em 1.5em;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 20px;    
+}
+.container .search-wrapper{
+    display: grid;
+    grid-template-columns: 9fr 3fr;
+    grid-template: 1.25em;
+    
+}
+.search-wrapper button{
+    font-size: 1em;
+    background-color: #3d64e6;
+    color: #fff;
+    padding: 0.8em 0;
+    border: none;
+    border-radius: 10px 2px 10px 2px;
+    cursor: pointer;
+    margin-left: 5px;
+
+}
+
+.search-wrapper input{
+    font-size: 1em;
+    outline: none;
+    padding: 0 0.62em;
+    border: 2px solid #3d64e6;
+    border-radius: 15px 2px 15px 2px;
+    border-bottom: 2px solid #3d64e6;
+    background: none;
+}
+
+#result{
+    margin-top: 1.25em;
+}
+.container .flag-img{
+    display: block;
+    width: 45%;
+    min-width: 7.5em;
+    margin: 1.8em auto 1.2em auto;
+}
+
+.container h2{
+    text-align: center;
+    color: #111;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 1.8em;
+
+}
+.data-wrapper{
+    margin-bottom: 1em;
+    letter-spacing: 0.5px;
+}
+.container h4{
+    display: inline;
+    font-weight: 600;
+    color: black;
+}
+.container span{
+    color: #3d64e6; 
+}
+.container h3{
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 400;
+    color: rgb(208, 61, 90);
+}
+
+@media  (max-width: 500px) {
+    .search-wrapper button{
+        font-size: 1rem;
+        background-color: #3d64e6;
+        color: #fff;
+        padding: 0.8em 0;
+        border: none;
+        border-radius: 10px 2px 10px 2px;
+        cursor: pointer;
+        margin-left: 5px;
+    
+    }
+    
+    .search-wrapper input{
+        width: 60px;
+        font-size: 1em;
+        outline: none;
+        padding: 0 0.62em;
+        border: 2px solid #3d64e6;
+        border-radius: 15px 2px 15px 2px;
+        border-bottom: 2px solid #3d64e6;
+        background: none;
+    }
+    
+}
